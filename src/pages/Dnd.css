@@ -1,0 +1,47 @@
+/* DndPage.css */
+.dnd-container {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.dnd-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.dnd-column-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.dnd-droppable {
+    background: #333333;
+    padding: 4px;
+    width: 250px;
+    min-height: 500px;
+}
+
+.dnd-item {
+    padding: 16px;
+    margin: 0 0 16px 0;
+    min-height: 50px;
+    background-color: grey;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dnd-item.dragging {
+    background-color: #292929;
+}
+
+.delete-button {
+    margin-left: 8px;
+    background-color: #BD5482;
+    color: white;
+    border-radius: 50px;
+}

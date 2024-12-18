@@ -1,0 +1,82 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: #BD5482;
+}
+
+.input {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+}
+.input input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 200px;
+}
+.input input:hover{
+    border-color: white;
+}
+.input button{
+    margin-left: 10px;
+}
+
+button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+button:hover {
+    text-decoration: underline;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.buttons button{
+    margin: 0px 10px;
+}
+
+button.redirect {
+    margin-left: 20px;
+    margin-top: 15px;
+    background-color: #BD5482;
+    color: white;
+}
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.checkbox button {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 10px;
+}
